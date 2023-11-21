@@ -9,6 +9,7 @@
   section {
     width: 414px;
     text-wrap: balance;
+    overflow-x:hidden;
   }
   .hero {
     display: flex;
