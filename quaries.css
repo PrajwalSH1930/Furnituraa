@@ -25,7 +25,7 @@
     transform: translate(-24px, -24px);
   }
   .btn-login {
-    transform: translate(32px,12px);
+    transform: translate(56px,12px);
     margin-left: 12px;
   }
   .logo-header {
@@ -42,19 +42,19 @@
     font-size: 40px;
     top: 5%;
     left: -20%;
-    transform: translate(-50%, -250px);
+    transform: translate(-50%, -220px);
     width: 400px;
   }
   .hero-description {
     color: #f3f3f3;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-380px, -50%);
     width: 380px;
   }
   .more-btn {
-    transform: translate(-60px, 50px);
+    transform: translate(-60px, 70px);
   }
   .search-container {
     width: 400px;
