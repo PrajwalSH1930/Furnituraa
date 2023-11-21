@@ -25,6 +25,7 @@
     transform: translate(-24px, -24px);
   }
   .btn-login {
+    position:absolute;
     transform: translate(56px,12px);
     margin-left: 12px;
   }
