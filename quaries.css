@@ -1,0 +1,211 @@
+@media (max-width: 1350px) {
+  .front-page {
+    max-width: 1200px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  html,
+  body,
+  section {
+    width: 414px;
+    text-wrap: balance;
+  }
+  .hero {
+    display: flex;
+  }
+  .section-hero {
+    background-repeat: no-repeat;
+  }
+  .primary-heading {
+    text-align: center;
+    font-size: 32px;
+  }
+  .header a .logo {
+    transform: translate(-24px, -24px);
+  }
+  .btn-login {
+    transform: translateY(12px);
+    margin-left: 12px;
+  }
+  .logo-header {
+    display: none;
+  }
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .primary-heading {
+    position: absolute;
+    font-size: 40px;
+    top: 5%;
+    left: -20%;
+    transform: translate(-50%, -250px);
+    width: 400px;
+  }
+  .hero-description {
+    color: #f3f3f3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-380px, -50%);
+    width: 380px;
+  }
+  .more-btn {
+    transform: translate(-60px, 50px);
+  }
+  .search-container {
+    width: 400px;
+    transform: translateX(-100px);
+  }
+  .cat {
+    width: 390px;
+    margin-left: 12px;
+  }
+  .secondary-head {
+    text-align: center;
+  }
+  .category {
+    padding: 18px;
+    width: 390px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .cat-container {
+    padding: 0;
+    transform: translateX(-24px);
+  }
+  .tables {
+    grid-column: 1 / span 2;
+  }
+  .second-page {
+    width: 414px;
+  }
+  .speciality {
+    grid-template-columns: 1fr;
+    margin-left: 48px;
+    row-gap: 36px;
+  }
+  .grid-4-col,
+  .product-container {
+    padding-left: 18px;
+    width: 390px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+  }
+  .product-box {
+    margin-top: 12px;
+    padding: 16px;
+  }
+  .product-image {
+    height: 135px;
+  }
+  .tertiary-head {
+    text-align: center;
+  }
+  .grid-2-col {
+    width: 390px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .chair-container {
+    width: 390px;
+    padding-left: 18px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .secondary-sofa-head {
+    transform: translateX(-25px);
+  } */
+  .si {
+    padding: 0 20px;
+    transform: translateX(-18px);
+  }
+  .sofa-sell {
+    width: 390px;
+    margin-left: 12px;
+  }
+  .sofa-head {
+    font-weight: 500;
+    text-wrap: nowrap;
+    transform: translateX(-8px);
+  }
+  .sofa-head-img {
+    width: 366px;
+    height: 244px;
+    transform: translateX(-12px);
+  }
+  .support-text {
+    margin: 0 48px;
+  }
+  .sb-icon2,
+  .sb-icon {
+    width: 75px;
+    height: 75px;
+  }
+  .sb-head {
+    font-size: 20px;
+  }
+  .wrapper h5 {
+    margin: 32px 0;
+  }
+  .cards {
+    margin-top: 48px;
+    flex-direction: column;
+    transform: translateX(-290px);
+  }
+  .cards :last-child {
+    margin-bottom: 96px;
+  }
+  .testimonials-section {
+    display: none;
+  }
+  .buyer-footer {
+    flex-direction: column;
+    transform: translateX(-52px);
+  }
+  .grid--footer {
+    margin-left: 18px;
+    width: 390px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-col {
+    grid-column: 1 / span 2;
+  }
+  .logo-footer {
+    font-family: "Niconne";
+    font-size: 36px;
+    text-align: center;
+    color: #444;
+  }
+  .social-links {
+    margin: 0 auto;
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 18px;
+  }
+  .forgot-pwd,
+  .signup-form,
+  .login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f1f1f1;
+    color: #444;
+  }
+  .forgot-pwd form .field label,
+  .signup-form form .field label,
+  .login-form form .field label {
+    color: #444;
+  }
+  .login-form form .field input:focus ~ label,
+  .login-form form .field input:valid ~ label,
+  .signup-form form .field input:focus ~ label,
+  .signup-form form .field input:valid ~ label,
+  .forgot-pwd form .field input:focus ~ label,
+  .forgot-pwd form .field input:valid ~ label {
+    color: #444;
+  }
+}
