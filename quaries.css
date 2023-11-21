@@ -25,7 +25,7 @@
     transform: translate(-24px, -24px);
   }
   .btn-login {
-    transform: translateY(12px);
+    transform: translate(32px,12px);
     margin-left: 12px;
   }
   .logo-header {
@@ -208,5 +208,8 @@
   .forgot-pwd form .field input:focus ~ label,
   .forgot-pwd form .field input:valid ~ label {
     color: #444;
+  }
+  #bed-section{
+    padding-bottom:96px;
   }
 }
