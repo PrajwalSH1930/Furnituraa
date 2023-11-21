@@ -937,6 +937,10 @@ body {
 .grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
+.logo-footer {
+  font-family: "Niconne";
+  color: #444;
+}
 .btn-mobile-nav {
   border: none;
   background: none;

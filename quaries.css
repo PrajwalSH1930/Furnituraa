@@ -3,13 +3,159 @@
     max-width: 1200px;
   }
 }
+@media only screen and (max-width: 820px) {
+  html,
+  body,
+  section {
+    width: 820px;
+    text-wrap: balance;
+    overflow-x: hidden;
+  }
+  .btn-login {
+    transform: translate(36px, 32px);
+    margin-left: 12px;
+  }
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .primary-heading {
+    font-size: 52px;
+    width: 600px;
+    transform: translate(-60%, -200px);
+  }
+  .hero-description {
+    transform: translate(-100%, -100%);
+    width: 580px;
+  }
+  .more-btn {
+    transform: translate(-60px, 96px);
+  }
+  .search-container {
+    width: 600px;
+    transform: translateX(-80px);
+  }
+  .cat {
+    width: 780px;
+    margin-left: 20px;
+  }
+  .speciality {
+    width: 780px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 48px;
+    row-gap: 36px;
+  }
+  .secondary-head {
+    text-align: center;
+    transform: translateX(-72px);
+  }
+  .tertiary-head {
+    transform: translateX(48px);
+  }
+  .chair-container,
+  .grid-4-col,
+  .product-container {
+    padding-left: 48px;
+    width: 780px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+  }
+  .product-image {
+    width: 100%;
+    height: 200px;
+  }
+  .grid-2-col {
+    width: 780px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .sofa-head-img {
+    width: 560px;
+    height: 400px;
+    margin-left: 52px;
+  }
+  .cards :last-child {
+    margin-bottom: 96px;
+  }
+  .chair-container,
+  #sofa-section,
+  #bed-section {
+    padding-bottom: 96px;
+  }
+  .third-section {
+    width: 780px;
+    grid-template-columns: 0.7fr 1.5fr;
+    gap: 18px;
+  }
+  .sale {
+    width: 300px;
+  }
+  .customer-head {
+    font-size: 40px;
+  }
+  .service-support {
+    width: 780px;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .sl {
+    display: none;
+  }
+  .sofa-sell {
+    margin-left: 48px;
+  }
+  .testimonials-section {
+    display: none;
+  }
+  .wrapper {
+    width: 780px;
+    transform: translate(-90px);
+  }
+  .cards {
+    width: 780px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wrapper h5 {
+    margin-top: 24px;
+  }
+  .quote {
+    transform: translateY(88px);
+  }
+  .ts-head {
+    transform: translateX(-36px);
+  }
+  .buyer-footer {
+    transform: translateX(-36px);
+  }
+  #shelf-section .secondary-sofa-head {
+    transform: translateX(-64px);
+  }
+  .grid--footer {
+    grid-template-columns: repeat(3, 1fr);
+    width: 780px;
+    margin: 0 auto;
+    transform: translateX(-48px);
+  }
+  .logo-footer {
+    font-family: "Niconne";
+    font-size: 48px;
+    color: #444;
+  }
+}
 @media only screen and (max-width: 440px) {
   html,
   body,
   section {
     width: 414px;
     text-wrap: balance;
-    overflow-x:hidden;
+    overflow-x: hidden;
+  }
+  #shelf-section .secondary-sofa-head {
+    transform: translateX(8px);
   }
   .hero {
     display: flex;
@@ -25,7 +171,7 @@
     transform: translate(-24px, -24px);
   }
   .btn-login {
-    transform: translate(56px,12px);
+    transform: translate(56px, 12px);
     margin-left: 12px;
   }
   .logo-header {
@@ -48,11 +194,11 @@
   .hero-description {
     color: #f3f3f3;
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-380px, -50%);
     width: 380px;
-    font-size:16px;
+    font-size: 17px;
   }
   .more-btn {
     transform: translate(-60px, 70px);
@@ -66,6 +212,7 @@
     margin-left: 12px;
   }
   .secondary-head {
+    transform: translateX(8px);
     text-align: center;
   }
   .category {
@@ -85,8 +232,8 @@
     width: 414px;
   }
   .speciality {
+    width: 390px;
     grid-template-columns: 1fr;
-    margin-left: 48px;
     row-gap: 36px;
   }
   .grid-4-col,
@@ -104,6 +251,7 @@
     height: 135px;
   }
   .tertiary-head {
+    transform: translateX(-4px);
     text-align: center;
   }
   .grid-2-col {
@@ -116,26 +264,32 @@
     padding-left: 18px;
     grid-template-columns: repeat(2, 1fr);
   }
-  /* .secondary-sofa-head {
-    transform: translateX(-25px);
-  } */
   .si {
     padding: 0 20px;
     transform: translateX(-18px);
   }
   .sofa-sell {
     width: 390px;
-    margin-left: 12px;
+    transform: translateX(-36px);
+    overflow: hidden;
+  }
+  .customer-head,
+  .customer-text {
+    width: 380px;
   }
   .sofa-head {
     font-weight: 500;
     text-wrap: nowrap;
     transform: translateX(-8px);
   }
+  .third-section {
+    grid-template-columns: 1fr;
+    width: 390px;
+  }
   .sofa-head-img {
     width: 366px;
     height: 244px;
-    transform: translateX(-12px);
+    margin-left: -12px;
   }
   .support-text {
     margin: 0 48px;
@@ -148,13 +302,21 @@
   .sb-head {
     font-size: 20px;
   }
+  .ts-head {
+    transform: translateX(6px);
+  }
   .wrapper h5 {
     margin: 32px 0;
+    transform: translateX(-96px);
   }
   .cards {
     margin-top: 48px;
+    display: flex;
     flex-direction: column;
-    transform: translateX(-290px);
+    transform: translateX(-90px);
+  }
+  .card {
+    background: #f5f5f5;
   }
   .cards :last-child {
     margin-bottom: 96px;
@@ -167,9 +329,9 @@
     transform: translateX(-52px);
   }
   .grid--footer {
-    margin-left: 18px;
     width: 390px;
     grid-template-columns: repeat(2, 1fr);
+    transform: translateX(8px);
   }
   .logo-col {
     grid-column: 1 / span 2;
@@ -211,7 +373,13 @@
     color: #444;
   }
   #sofa-section,
-  #bed-section{
-    padding-bottom:96px;
+  #bed-section {
+    padding-bottom: 96px;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .sl {
+    display: none;
   }
 }
