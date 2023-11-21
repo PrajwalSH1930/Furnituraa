@@ -159,9 +159,9 @@
   .cards :last-child {
     margin-bottom: 96px;
   }
-  .testimonials-section {
+/*   .testimonials-section {
     display: none;
-  }
+  } */
   .buyer-footer {
     flex-direction: column;
     transform: translateX(-52px);
