@@ -300,6 +300,7 @@ body {
     ),
     url(images/background-furniture.jpg);
   background-size: cover;
+  background-attachment:fixed;
 }
 
 .hero {
